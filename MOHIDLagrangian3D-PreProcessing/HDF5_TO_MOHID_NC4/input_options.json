@@ -1,0 +1,27 @@
+{
+  "input_data_HDF5_foldername": "input_data_HDF5",
+  "output_data_NETCDF4_foldername": "output_data_NETCDF4",
+  "rogusity_option_dict": {
+    "rugosity_method": "Folk_LinAvg",
+    "__comment" : "comment on rugosity_method: it could be Folk_ExpAvg, Folk_LinAvg,Folk_PowAvg",
+    "shapefile_folder": "Arousa_sediment_map",
+    "value_column": "valor",
+    "rugosity_map": {
+      "Arousa _Arenas": 0.003,
+      "Arousa _finos": 0.0005,
+      "Arousa _Gravas": 0.030,
+      "Arousa _Organica": 0.0001
+                      },
+    "use_background": true,
+    "percent_in_0_1": false,
+    "background_rugosity": 0.002,
+    "kmz_folder": "polygons_data",
+    "kmz_rugosity_map": {
+      "VillagarciaA": 0.01,
+      "VillagarciaB": 0.01
+                           },
+    "default_kmz_rugosity": 0.01,
+    "land_mask_shp": "ne_10m_land//ne_10m_land.shp",
+    "conversion_rugosity_height_to_length" : 1.0
+                                }
+}
