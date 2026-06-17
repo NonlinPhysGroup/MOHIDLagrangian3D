@@ -1,0 +1,9 @@
+{
+  "input_data_ROMS_foldername": "C:/Users/mohsen.shabani/Desktop/GFNL-Mohsen/Data from Tania/2026-04-26/AGORA/WAV/SWAN-wave",
+  "output_data_NETCDF4_foldername": "AGORA-current-wave_new3",
+  "convert": {
+    "current": false,
+    "waterProperties": false,
+    "wave": true
+  }
+}
